@@ -9,6 +9,7 @@
 body {
   width: 375px;
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 img {
@@ -68,6 +69,10 @@ img {
   color: #747474;
 }
 
+.home-part-one {
+  padding-bottom: 50px;
+}
+
 .home-part-one .h5 {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -76,6 +81,18 @@ img {
 .home-part-one span {
   font-size: 25px;
   font-weight: 600;
+}
+
+.home-part-one-item-one {
+  display: none;
+}
+
+.home-part-one-item-two {
+  margin-top: 60px;
+}
+.home-part-one .btn {
+  height: 50px;
+  width: 150px;
 }
 
 .btn {
@@ -220,6 +237,11 @@ ul > div {
   height: 130px;
 }
 
+.home-part-four .btn {
+  background-color: red;
+  margin-bottom: 50px;
+}
+
 .home-part-four .p {
   margin: 20px 0;
 }
@@ -244,6 +266,22 @@ ul > div {
   color: white;
   width: 170px;
   height: 50px;
+}
+
+.home-part-five .home-part-five-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.home-part-five .home-part-five-flex > div:nth-child(1),
+.home-part-five .home-part-five-flex > div:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
 }
 
 .home-part-five .p {
@@ -554,15 +592,16 @@ footer ul li {
   align-items: center;
   justify-content: center;
   padding-top: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .about-part-one-item-two {
-  padding: 20px;
-  padding-top: 50px;
   display: flex;
+  padding: 20px;
   flex-direction: column;
 }
+
+
 
 .about-part-one-item-two .h5 {
   font-size: 14px;
@@ -579,6 +618,7 @@ footer ul li {
   height: 55px;
   width: 225px;
   font-weight: 900;
+  margin-bottom: 50px;
 }
 
 .about-part-two {
@@ -1128,6 +1168,7 @@ footer ul li {
   }
   body {
     width: 100%;
+    overflow-x: hidden;
   }
 
   .header {
@@ -1903,8 +1944,7 @@ footer ul li {
     display: flex;
   }
 
-
-  .about-part-five-flex >div {
+  .about-part-five-flex > div {
     width: 33.3%;
   }
 }
